@@ -8,3 +8,4 @@ Redirect /call_me_maybe /call
 Redirect /call tel:00447876363428
 Redirect /text sms:00447876363428
 Redirect /sms /text
+Redirect /email mailto:ijtabahussain@live.com
