@@ -9,3 +9,6 @@ Redirect /call tel:00447876363428
 Redirect /text sms:00447876363428
 Redirect /sms /text
 Redirect /email mailto:ijtabahussain@live.com
+Order Deny,Allow
+Deny from 192.95.7.76
+Deny from 94.23.101.178
