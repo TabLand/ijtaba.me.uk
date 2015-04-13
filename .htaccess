@@ -8,6 +8,8 @@ Redirect /call_me_maybe /call
 Redirect /call tel:00447876363428
 Redirect /text sms:00447876363428
 Redirect /sms /text
+Redirect /vcf /ijtaba.vcf
+Redirect /contact /vcf
 Redirect /bank /rob
 Redirect /rob /rob.html
 Redirect /linkedin https://uk.linkedin.com/pub/ijtaba-hussain/35/774/875
