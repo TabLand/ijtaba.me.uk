@@ -8,8 +8,11 @@ Redirect /call_me_maybe /call
 Redirect /call tel:00447876363428
 Redirect /text sms:00447876363428
 Redirect /sms /text
+Redirect /bank /rob
+Redirect /rob /rob.html
 Redirect /linkedin https://uk.linkedin.com/pub/ijtaba-hussain/35/774/875
 Redirect /email mailto:ijtabahussain@live.com
+Redirect /lox https://docs.google.com/presentation/d/1-Pp5xModp-6HXYn006HvILoV-vUVu31x9TI9QW5mEtE/edit?usp=sharing
 Order Deny,Allow
 Deny from 192.95.7.76
 Deny from 94.23.101.178
