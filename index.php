@@ -10,7 +10,6 @@
 		Hello, and welcome to <?php echo whats_my_name();?> Hussain's personal webpages.<br>
 		Here is my Realtime <a href="calendar/">Schedule</a><br>
 		From here you can <a href="dine_me/">Dine Me </a><br>
-		Or <a href="rob">Rob Me</a><br>
 		Or <a href="last_sighting/">Kidnap Me</a><br>
 		Or <a href="hire_me/">Hire Me</a><br>
 		Or link me on <a href="linkedin/">LinkedIn</a><br>
