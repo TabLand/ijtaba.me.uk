@@ -5,8 +5,8 @@ Redirect /plus https://plus.google.com/108238868547431605366/posts
 Redirect /fb https://www.facebook.com/ijtaba
 Redirect /facebook https://www.facebook.com/ijtaba
 Redirect /call_me_maybe /call
-Redirect /call tel:00447876363428
-Redirect /text sms:00447876363428
+Redirect /call /call.php 
+Redirect /text /sms.php
 Redirect /sms /text
 Redirect /vcf /ijtaba.vcf
 Redirect /contact /vcf

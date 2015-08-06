@@ -15,7 +15,11 @@ a    {
 body {
 	background-color: black;
 	color: white;
-	width: 50%;
-	margin: 0px auto 0px auto;
+	width: 100%;
+    overflow-x: hidden;
 	text-align: center;
+}
+
+.telephony {
+	font-size: 10em;
 }
