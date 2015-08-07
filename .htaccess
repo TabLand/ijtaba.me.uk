@@ -5,6 +5,7 @@ Redirect /plus https://plus.google.com/108238868547431605366/posts
 Redirect /fb /facebook
 Redirect /facebook https://www.facebook.com/ijtaba
 Redirect /call_me_maybe /call
+Redirect /timetabling /City-University-Timetabling 
 Redirect /vcf /ijtaba.vcf
 Redirect /contact /vcf
 Redirect /linkedin https://uk.linkedin.com/pub/ijtaba-hussain/35/774/875
