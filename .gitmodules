@@ -4,3 +4,6 @@
 [submodule "timetabling"]
 	path = timetabling
 	url = https://github.com/TabLand/timetabling
+[submodule "blues-clues-inator"]
+	path = blues-clues-inator
+	url = https://github.com/TabLand/blues-clues-inator
