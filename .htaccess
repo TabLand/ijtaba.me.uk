@@ -2,16 +2,11 @@ IndexOptions +Charset=UTF-8
 ErrorDocument 404 http://ijtaba.me.uk/404.html
 Redirect /hire_me https://docs.google.com/document/d/1CqBt00J1lqQeZGMYASBq7q9rCWv_sF_Lw3ZdZk1d2D0
 Redirect /plus https://plus.google.com/108238868547431605366/posts
-Redirect /fb https://www.facebook.com/ijtaba
+Redirect /fb /facebook
 Redirect /facebook https://www.facebook.com/ijtaba
 Redirect /call_me_maybe /call
-Redirect /call /call.php 
-Redirect /text /sms.php
-Redirect /sms /text
 Redirect /vcf /ijtaba.vcf
 Redirect /contact /vcf
-Redirect /bank /rob
-Redirect /rob /rob.html
 Redirect /linkedin https://uk.linkedin.com/pub/ijtaba-hussain/35/774/875
 Redirect /email mailto:ijtabahussain@live.com
 Redirect /lox https://docs.google.com/presentation/d/1-Pp5xModp-6HXYn006HvILoV-vUVu31x9TI9QW5mEtE/edit?usp=sharing
