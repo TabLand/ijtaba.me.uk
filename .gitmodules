@@ -2,7 +2,7 @@
 	path = City-University-Timetabling
 	url = https://github.com/TabLand/City-University-Timetabling
 [submodule "timetabling"]
-	path = timetabling
+	path = dissertation
 	url = https://github.com/TabLand/timetabling
 [submodule "blues-clues-inator"]
 	path = blues-clues-inator
