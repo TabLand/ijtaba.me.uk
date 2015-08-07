@@ -1,3 +1,6 @@
 [submodule "City-University-Timetabling"]
 	path = City-University-Timetabling
 	url = https://github.com/TabLand/City-University-Timetabling
+[submodule "timetabling"]
+	path = timetabling
+	url = https://github.com/TabLand/timetabling
