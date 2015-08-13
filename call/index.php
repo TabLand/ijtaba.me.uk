@@ -3,10 +3,13 @@
 <html>
 	<head>
 		<title>Call <?php echo whats_my_name();?> Hussain</title>
-		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="../main.css">
 	</head>
 	<body>
-        <a class="telephony" href="tel:00447876363428">(&#128222;)</a>
+        <a href="tel:00447876363428">
+            <img src="dialer.png"><br>
+            Click to call Ijtaba
+        </a>
 	</body>
 </html>
