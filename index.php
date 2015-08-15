@@ -5,7 +5,7 @@
         <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 		<title><?php echo whats_my_name();?> Hussain's Personal Webpages</title>
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		Hello, and welcome to <?php echo whats_my_name();?> Hussain's personal webpages.<br>

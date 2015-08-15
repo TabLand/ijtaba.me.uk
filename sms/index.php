@@ -4,7 +4,7 @@
 	<head>
 		<title>Text <?php echo whats_my_name();?> Hussain</title>
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="../main.css">
+		<link rel="stylesheet" type="text/css" href="../style.css">
 	</head>
 	<body>
         <a href="sms:00447876363428">
