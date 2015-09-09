@@ -1,6 +1,7 @@
 IndexOptions +Charset=UTF-8
 ErrorDocument 404 http://ijtaba.me.uk/404.html
 Redirect /hire_me https://docs.google.com/document/d/1CqBt00J1lqQeZGMYASBq7q9rCWv_sF_Lw3ZdZk1d2D0
+Redirect /rent-my-car https://www.drivejoy.co.uk/nissan/pixo/b6186b93-e12c-4692-857f-a4001e46946e
 Redirect /plus https://plus.google.com/108238868547431605366/posts
 Redirect /fb /facebook
 Redirect /facebook https://www.facebook.com/ijtaba

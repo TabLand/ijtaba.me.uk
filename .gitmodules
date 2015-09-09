@@ -7,3 +7,6 @@
 [submodule "blues-clues-inator"]
 	path = blues-clues-inator
 	url = https://github.com/TabLand/blues-clues-inator
+[submodule "dine_me"]
+	path = dine_me
+	url = https://github.com/TabLand/dine_me.git
