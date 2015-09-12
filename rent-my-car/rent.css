@@ -1,0 +1,13 @@
+#body-override{
+    font-family: "Lato",Georgia,serif;    
+}
+
+.anchor-override{
+    color:white;   
+}
+
+#photos {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}

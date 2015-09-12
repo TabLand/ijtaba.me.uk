@@ -6,20 +6,34 @@ src: url(Cicle_Gordita.ttf);
 
 body,input {
 	font-family:'Josefin Sans',cicle;
-	font-size: 2em;
+	font-size: 1.8em;
 }
 a    {
 	text-decoration: none;
 	color: yellow;
 }
+html,body {
+    height: 90%;
+    width: 100%;    
+}
 body {
 	background-color: black;
 	color: white;
-	width: 100%;
     overflow-x: hidden;
 	text-align: center;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 .telephony {
 	font-size: 10em;
+}
+div#container{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+div#index_container{
+    margin-top: 5%;    
 }
