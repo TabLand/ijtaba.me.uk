@@ -8,6 +8,7 @@ Redirect /call_me_maybe /call
 Redirect /timetabling /City-University-Timetabling 
 Redirect /vcf /ijtaba.vcf
 Redirect /contact /vcf
+Redirect /rent-my-car/drivejoy https://www.drivejoy.co.uk/nissan/pixo/b6186b93-e12c-4692-857f-a4001e46946e
 Redirect /linkedin https://uk.linkedin.com/pub/ijtaba-hussain/35/774/875
 Redirect /email mailto:ijtabahussain@live.com
 Redirect /lox https://docs.google.com/presentation/d/1-Pp5xModp-6HXYn006HvILoV-vUVu31x9TI9QW5mEtE/edit?usp=sharing

@@ -2,7 +2,7 @@
 <html>
 	<head>
         <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-		<title>Rent Ijtaba's Car</title>
+		<title>Borrow Ijtaba's Car</title>
 		<link rel="stylesheet" type="text/css" href="../style.css">
 		<link rel="stylesheet" type="text/css" href="rent.css">
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
@@ -19,6 +19,9 @@
                     });
                 }                
             );
+            function update_prices(){
+                
+            }
         </script>
 	</head>
 	<body id="body-override">
@@ -40,11 +43,11 @@
                 <img class="photo" src="photos/14.jpeg"/>
             </div>
             <br>
-            <a class="anchor-override" href="//www.drivejoy.co.uk/nissan/pixo/b6186b93-e12c-4692-857f-a4001e46946e">
+            <a class="anchor-override" href="drivejoy">
                 Click here to rent and insure my car through <br>
-                <img src="//www.drivejoy.co.uk/assets/images/logo-white.png"/><br>
+                <img src="//www.drivejoy.co.uk/assets/images/logo-white.png" alt="drivejoy BETA" title="drivejoy BETA"/><br>
                 Prices from:<br>
-                &pound;25/day, &pound;175/week, &pound;700/month
+                <div id="prices"><?php require 'pricing'; ?></div>
             </a>
         </div>
 	</body>
