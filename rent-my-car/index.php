@@ -42,13 +42,47 @@
                 <img class="photo" src="photos/13.jpeg"/>
                 <img class="photo" src="photos/14.jpeg"/>
             </div>
-            <br>
-            <a class="anchor-override" href="drivejoy">
+            <br><!-- Google Code for Pixo Drivejoy Conversion Page
+            In your html page, add the snippet and call
+            goog_report_conversion when someone clicks on the
+            chosen link or button. -->
+            <a class="anchor-override" href="drivejoy" onclick="javascript:goog_report_conversion()">
                 Click here to rent and insure my car through <br>
                 <img src="//www.drivejoy.co.uk/assets/images/logo-white.png" alt="drivejoy BETA" title="drivejoy BETA"/><br>
                 Prices from:<br>
                 <div id="prices"><?php require 'pricing'; ?></div>
             </a>
+
         </div>
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            goog_snippet_vars = function() {
+                var w = window;
+                w.google_conversion_id = 944135755;
+                w.google_conversion_label = "03dFCOPa52AQy7yZwgM";
+                w.google_remarketing_only = false;
+                w.google_conversion_value = 1;
+            }
+                // DO NOT CHANGE THE CODE BELOW.
+            goog_report_conversion = function(url) {
+                goog_snippet_vars();
+                window.google_conversion_format = "3";
+                window.google_is_call = true;
+                var opt = new Object();
+                opt.onload_callback = function() {
+                    if (typeof(url) != 'undefined') {
+                        window.location = url;
+                    }
+                }
+                var conv_handler = window['google_trackConversion'];
+                if (typeof(conv_handler) == 'function') {
+                    conv_handler(opt);
+                }
+            }
+            /* ]]> */
+        </script>
+        <script type="text/javascript"
+            src="//www.googleadservices.com/pagead/conversion_async.js">
+        </script>
 	</body>
 </html>
