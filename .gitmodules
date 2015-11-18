@@ -10,3 +10,6 @@
 [submodule "dine_me"]
 	path = dine_me
 	url = https://github.com/TabLand/dine_me.git
+[submodule "rent-my-car"]
+	path = rent-my-car
+	url = ./rent-my-car
