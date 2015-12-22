@@ -13,12 +13,10 @@
             Here is my Realtime <a href="calendar/">Schedule</a><br>
             From here you can <a href="dine_me/">Dine Me </a><br>
             Link me on <a href="linkedin/">LinkedIn</a><br>
-            <a href="borrow-my-car">Borrow</a> my car<br>
             <a href="skype">Skype</a> me<br>
             Follow me on <a href="twitter">twitter</a><br>
             I can be reached on the email <a href="email">ijtabahussain@live.com</a><br>
             You can <a href="call">call</a> or <a href="sms">text</a> me on <a href="call_me_maybe">00447876363428</a><br>
-            <?php require "rent-my-car/responsiveness" ?><br/>
             You can fax me on <a href="fax:00448721116047">00448721116047</a>, subject to <a href="fax_charges/">charges</a>
         </div>
 	</body>
