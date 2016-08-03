@@ -7,15 +7,22 @@
 body,input {
 	font-family:'Josefin Sans',cicle;
 }
-a    {
+
+a {
 	text-decoration: none;
 	color: white;
 }
+
+a:hover {
+    color: red;    
+}
+
 html,body {
     height: 100%;
     width: 100%;
     overflow: hidden;    
 }
+
 body {
 	background-color: black;
 	color: white;
@@ -41,6 +48,7 @@ div#container{
     top: 50%;
     transform: translateY(-50%);
 }
+
 div#index_container{
     margin-top: 5%;    
 }
