@@ -10,3 +10,6 @@
 [submodule "dine_me"]
 	path = dine_me
 	url = https://github.com/TabLand/dine_me.git
+[submodule "rambling-cartographer"]
+    path = The-Rambling-Cartographer 
+    url = https://github.com/TabLand/The-Rambling-Cartographer
