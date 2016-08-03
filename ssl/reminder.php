@@ -1,6 +1,6 @@
 <?php
-    $EMAILS = exec("cat ./emails.csv");
-    $DOMAIN = exec("cat ./domain");
+    $EMAILS = exec("cat /var/www/ssl/emails.csv");
+    $DOMAIN = exec("cat /var/www/ssl/domain");
     $WARNING_DAYS = 7;
     $EXPIRY = exec("/var/www/ssl/expiry.sh");
     $EXPIRY_TIMESTAMP = strtotime($EXPIRY);
