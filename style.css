@@ -51,5 +51,8 @@ div#container{
 }
 
 div#index_container{
-    margin-top: 5%;    
+    width: 120px;
+    background-color: black;
+    height: 100%;
+    overflow: hidden;
 }
