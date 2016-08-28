@@ -1,11 +1,7 @@
-@font-face
-{
-    font-family: cicle;
-    src: url(Cicle_Gordita.ttf);
-}
 
-body,input {
-	font-family:'Josefin Sans',cicle;
+body,input, a {
+    font-family: "Lucida Console", Monaco, monospace;
+    text-shadow: 2px 2px 4px #000000;
     font-size: 20px;
 }
 
@@ -34,25 +30,38 @@ body {
     transform-style: preserve-3d;
 }
 
-iframe#cartographer{
+div#index_container{
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    top: 0px;
+    padding: 10px 0px 0px 10px;
+}
+div#earth_div {
     width: 100%;
     height: 100%;
     position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1000;
     overflow: hidden; 
+    left: 0px;
+    top: 0px;   
+    z-index: -1000;
 }
 
-div#container{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+div#datetime, div#control_links a{
+    font-size: 10px;
 }
 
-div#index_container{
-    width: 120px;
-    background-color: black;
-    height: 100%;
+div#credits {
+    width: 100%;
     overflow: hidden;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    z-index: 1000;
+    color: white;
+    text-align:right;
+    padding: 5px;
 }

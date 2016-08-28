@@ -6,13 +6,16 @@
 		<title>Ijtaba Hussain's Personal Webpages</title>
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="style.css">
-        <link type="text/css" rel="stylesheet" href="the-rambling-cartographer/embed.css"/>
+        <script src="https://www.webglearth.com/v2/api.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"   
+                crossorigin="anonymous"></script>
+        <script src="the-rambling-cartographer/cartographer.js" type="text/javascript"></script>
 	</head>
-	<body>
+    <body onload="initialize()">
+        <div id="earth_div"></div>
         <div id="index_container">
             Ijtaba Hussain<br>
             <a href="calendar/">Schedule</a><br>
-            <a href="dine_me/">Dine Me</a><br>
             <a href="linkedin/">LinkedIn</a><br>
             <a href="skype">Skype</a><br>
             <a href="twitter">Twitter</a><br>
@@ -20,9 +23,12 @@
             <a href="sms:00447876363428">Text</a><br/>
             <a href="tel:00447876363428">Call</a><br>
         </div>
-        <iframe id="cartographer" src="/the-rambling-cartographer">
-        </iframe>
         <div id="credits">
+            <div id="datetime"></div>
+            <div id="control_links">
+                <a id="pause"  href="javascript:pause_rotation()">pause rotation</a>
+                <a id="resume" href="javascript:resume_rotation()">resume rotation</a>
+            </div>
             <a href="https://github.com/TabLand/The-Rambling-Cartographer">The Rambling Cartographer</a><br/>
             Apache web server access log mapper<br/>
             Thanks to <a href="http://www.ip2location.com">IP2Location</a>, 
