@@ -6,7 +6,7 @@ Redirect /plus https://plus.google.com/108238868547431605366/posts
 Redirect /twitter https://twitter.com/Tab_Land
 Redirect /fb /facebook
 Redirect /facebook https://www.facebook.com/ijtaba
-Redirect /calendar https://www.google.com/calendar/b/1/embed?src=hi@ijtaba.me.uk&ctz=Europe/London
+Redirect /calendar https://calendar.google.com/calendar/embed?src=ijtabahussainvidia%40gmail.com&ctz=Europe/London
 Redirect /call_me_maybe /call
 Redirect /timetabling /City-University-Timetabling 
 Redirect /vcf /ijtaba.vcf

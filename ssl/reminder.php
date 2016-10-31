@@ -11,7 +11,7 @@
     if($EXPIRING_IN <= $WARNING_DAYS){
         $SSL_WARNING = "URGENT! $DOMAIN ssl certificate about to expire in $EXPIRING_IN days\n";
         echo $SSL_WARNING;
-        mail($EMAILS, $SSL_WARNING, $SSL_WARNING,"FROM:ssl@ijtaba.me.uk\r\nImportance: High\r\n");
+        mail($EMAILS, $SSL_WARNING, $SSL_WARNING,"FROM: SSL Alerts <alert@ijtaba.me.uk>\r\nImportance: High\r\n");
     }
     else {
         echo "Certificate for $DOMAIN is valid for another $EXPIRING_IN days, warnings will be mailed to $EMAILS in $DAYS_TILL_WARNING days\n";
