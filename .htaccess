@@ -17,6 +17,7 @@ Redirect /linkedin https://uk.linkedin.com/pub/ijtaba-hussain/35/774/875
 Redirect /email mailto:ijtabahussain@live.com
 Redirect /lox https://docs.google.com/presentation/d/1-Pp5xModp-6HXYn006HvILoV-vUVu31x9TI9QW5mEtE/edit?usp=sharing
 Redirect /home/map https://goo.gl/maps/B4w1RvL5C4p
+RedirectMatch 404 /\.git
 Order Deny,Allow
 Deny from 192.95.7.76
 Deny from 94.23.101.178
