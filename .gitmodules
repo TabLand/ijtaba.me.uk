@@ -1,12 +1,15 @@
 [submodule "City-University-Timetabling"]
 	path = City-University-Timetabling
-	url = https://github.com/TabLand/City-University-Timetabling
+	url  = https://github.com/TabLand/City-University-Timetabling
 [submodule "timetabling"]
 	path = dissertation
-	url = https://github.com/TabLand/timetabling
+	url  = https://github.com/TabLand/timetabling
 [submodule "blues-clues-inator"]
 	path = blues-clues-inator
-	url = https://github.com/TabLand/blues-clues-inator
+	url  = https://github.com/TabLand/blues-clues-inator
 [submodule "dine_me"]
 	path = dine_me
-	url = https://github.com/TabLand/dine_me.git
+	url  = https://github.com/TabLand/dine_me.git
+[submodule "SpongeBobWavePants"]
+    path = SpongeBobWavePants
+    url  = https://github.com/TabLand/SpongeBobWavePants.git
