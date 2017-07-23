@@ -13,3 +13,6 @@
 [submodule "SpongeBobWavePants"]
     path = SpongeBobWavePants
     url  = https://github.com/TabLand/SpongeBobWavePants.git
+[submodule "rob_me"]
+    path = rob_me
+    url  = https://github.com/TabLand/rob_me.git
