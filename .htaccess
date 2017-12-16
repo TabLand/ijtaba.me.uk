@@ -14,6 +14,7 @@ Redirect /contact /vcf
 Redirect /rent-my-car/drivejoy https://www.drivejoy.co.uk/nissan/pixo/b6186b93-e12c-4692-857f-a4001e46946e
 Redirect /borrow-my-car/drivejoy https://www.drivejoy.co.uk/nissan/pixo/b6186b93-e12c-4692-857f-a4001e46946e
 Redirect /linkedin https://uk.linkedin.com/pub/ijtaba-hussain/35/774/875
+Redirect /github https://github.com/TabLand
 Redirect /email mailto:ijtabahussain@live.com
 Redirect /home/map https://goo.gl/maps/KbCs9hgxmN22
 RedirectMatch 403 /\.git
