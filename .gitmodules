@@ -1,9 +1,3 @@
-[submodule "City-University-Timetabling"]
-	path = www/City-University-Timetabling
-	url  = https://github.com/TabLand/City-University-Timetabling
-[submodule "timetabling"]
-	path = www/dissertation
-	url  = https://github.com/TabLand/timetabling
 [submodule "blues-clues-inator"]
 	path = www/blues-clues-inator
 	url  = https://github.com/TabLand/blues-clues-inator
@@ -12,7 +6,7 @@
 	url  = https://github.com/TabLand/dine_me.git
 [submodule "SpongeBobWavePants"]
 	path = www/SpongeBobWavePants
-    url  = https://github.com/TabLand/SpongeBobWavePants.git
+        url  = https://github.com/TabLand/SpongeBobWavePants.git
 [submodule "rob_me"]
 	path = www/rob_me
 	url = https://github.com/TabLand/rob_me.git
