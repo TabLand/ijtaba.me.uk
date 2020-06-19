@@ -1,0 +1,13 @@
+---
+- name: Install dependencies
+  apt:
+    name: apache2
+    state: latest
+    update_cache: yes
+
+-
+
+- name: Restart apache
+  service:
+    name: apache2
+    state: restarted

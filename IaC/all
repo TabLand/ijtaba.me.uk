@@ -1,5 +1,6 @@
 [web]
 ijtaba.me.uk
+bugznet.ijtaba.me.uk
 
 [all:vars]
 ansible_user=root
