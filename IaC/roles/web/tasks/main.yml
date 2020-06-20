@@ -1,3 +1,9 @@
 ---
 - name: apache2
   include: apache2.yml
+ 
+- name: git
+  include: git.yml
+
+- name: ssl
+  include: ssl.yml

@@ -1,0 +1,24 @@
+---
+- name: Add SSL Dependent Repositories
+  command: add-apt-repository "{{ item }}"
+  with_items:
+    - "universe"
+
+- name: Install Let's Encrypt CertBot
+  apt:
+    pkg:
+    - software-properties-common
+    - certbot
+    - python3-certbot-apache
+    state: present
+    update_cache: yes
+
+- name: Configure certbot - Initial Certificate
+  command: certbot --apache -n --agree-tos --redirect --uir --hsts --staple-ocsp --must-staple --email "ijtabahussain@live.com" -d " {{ inventory_hostname }} "
+
+- name: Ensure that certbot renew is turned on
+  systemd: 
+    name: certbot.timer
+    state: started
+    enabled: yes
+

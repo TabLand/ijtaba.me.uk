@@ -1,0 +1,34 @@
+---
+- name: Purge files previously checked out
+  file:
+    path: /opt/git/
+    state: absent
+
+- name: Checkout using git
+  git:
+    repo: https://github.com/TabLand/ijtaba.me.uk.git
+    dest: /opt/git/
+
+- name: Clear the old website
+  file:
+    path: /var/www/html
+    state: absent
+
+- name: Deploy the new website
+  command: mv /opt/git/www /var/www/html
+  args:
+    creates: /var/www/html
+    removes: /opt/git/www
+
+- name: Set permissions
+  file:
+    path: /var/www/html
+    owner: www-data
+    group: www-data
+    mode: u=rwx,g=rw,o=r
+    state: directory
+
+- name: Purge files checked out in this run
+  file:
+    path: /opt/git/
+    state: absent
