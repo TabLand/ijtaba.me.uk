@@ -2,5 +2,8 @@
 ijtaba.me.uk
 bugznet.ijtaba.me.uk
 
+
+
 [all:vars]
 ansible_user=root
+ansible_python_interpreter=/usr/bin/python3
