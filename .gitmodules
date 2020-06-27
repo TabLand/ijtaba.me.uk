@@ -3,10 +3,10 @@
 	url  = https://github.com/TabLand/blues-clues-inator
 [submodule "dine_me"]
 	path = www/dine_me
-	url  = https://github.com/TabLand/dine_me.git
+	url  = git@github.com:TabLand/dine_me.git
 [submodule "SpongeBobWavePants"]
 	path = www/SpongeBobWavePants
-        url  = https://github.com/TabLand/SpongeBobWavePants.git
+  url  = https://github.com/TabLand/SpongeBobWavePants.git
 [submodule "rob_me"]
 	path = www/rob_me
-	url = https://github.com/TabLand/rob_me.git
+	url  = https://github.com/TabLand/rob_me.git
