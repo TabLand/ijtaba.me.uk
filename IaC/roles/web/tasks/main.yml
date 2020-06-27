@@ -1,9 +1,12 @@
 ---
-- name: apache2
-  include: apache2.yml
+- name: webserver
+  include: webserver.yml
+  tags: webserver
  
-- name: git
-  include: git.yml
+- name: deploy
+  include: deploy.yml
+  tags: deploy
 
 - name: ssl
   include: ssl.yml
+  tags: ssl
