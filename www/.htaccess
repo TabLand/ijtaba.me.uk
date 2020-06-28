@@ -1,18 +1,14 @@
 IndexOptions +Charset=UTF-8
-ErrorDocument 403 https://ijtaba.me.uk/403.php
-ErrorDocument 404 https://ijtaba.me.uk/404.php
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
 Redirect /hire_me https://docs.google.com/document/d/1CqBt00J1lqQeZGMYASBq7q9rCWv_sF_Lw3ZdZk1d2D0
 Redirect /plus https://plus.google.com/108238868547431605366/posts
 Redirect /twitter https://twitter.com/Tab_Land
-Redirect /fb /facebook
-Redirect /facebook https://www.facebook.com/ijtaba
 Redirect /calendar https://calendar.google.com/calendar/embed?src=ijtabahussainvidia%40gmail.com&ctz=Europe/London
 Redirect /call_me_maybe /call
 Redirect /timetabling /City-University-Timetabling 
 Redirect /vcf /ijtaba.vcf
 Redirect /contact /vcf
-Redirect /rent-my-car/drivejoy https://www.drivejoy.co.uk/nissan/pixo/b6186b93-e12c-4692-857f-a4001e46946e
-Redirect /borrow-my-car/drivejoy https://www.drivejoy.co.uk/nissan/pixo/b6186b93-e12c-4692-857f-a4001e46946e
 Redirect /linkedin https://uk.linkedin.com/pub/ijtaba-hussain/35/774/875
 Redirect /github https://github.com/TabLand
 Redirect /email mailto:ijtabahussain@live.com
@@ -20,5 +16,3 @@ Redirect /home/map https://goo.gl/maps/KbCs9hgxmN22
 RedirectMatch 403 /\.git
 RedirectMatch 403 /*private*
 Order Deny,Allow
-Deny from 192.95.7.76
-Deny from 94.23.101.178
