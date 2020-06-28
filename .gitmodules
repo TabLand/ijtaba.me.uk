@@ -1,12 +1,12 @@
 [submodule "blues-clues-inator"]
-	path = www/blues-clues-inator
+	path = html/blues-clues-inator
 	url  = https://github.com/TabLand/blues-clues-inator
 [submodule "dine_me"]
-	path = www/dine_me
+	path = html/dine_me
 	url  = https://github.com/TabLand/dine_me.git
 [submodule "SpongeBobWavePants"]
-	path = www/SpongeBobWavePants
+	path = html/SpongeBobWavePants
   url  = https://github.com/TabLand/SpongeBobWavePants.git
 [submodule "rob_me"]
-	path = www/rob_me
+	path = html/rob_me
 	url  = https://github.com/TabLand/rob_me.git
