@@ -10,3 +10,5 @@
 - name: ssl
   include: ssl.yml
   tags: ssl
+  when:
+    - inventory_hostname != "localhost"

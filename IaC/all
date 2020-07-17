@@ -1,7 +1,7 @@
 [web]
 ijtaba.me.uk
 bugznet.ijtaba.me.uk
-
+localhost
 
 
 [all:vars]
