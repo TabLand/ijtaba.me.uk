@@ -5,9 +5,24 @@
     state: latest
     update_cache: yes
 
--
+- name: Disable existing sites
+  command: a2dissite "{{ item }}"
+  with_items:
+    - '000-default.conf'
+    - 'default-ssl.conf'
+
+- name: Deploy new apache configuration
+  template:
+    src: ijtaba-me-uk.conf.j2
+    dest: /etc/apache2/sites-available/ijtaba-me-uk.conf
+    owner: root
+    group: root
+    mode: u=rw,g=r,o=r
+
+- name: Enable the new website
+  command: a2ensite ijtaba-me-uk.conf
 
 - name: Restart apache
   systemd:
-    name: apache2
-    state: started
+   name: apache2
+   state: restarted
