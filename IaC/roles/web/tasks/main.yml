@@ -1,4 +1,8 @@
 ---
+- name: Reset VM
+  include: burn.yml
+  tags: burn
+
 - name: webserver
   include: webserver.yml
   tags: webserver

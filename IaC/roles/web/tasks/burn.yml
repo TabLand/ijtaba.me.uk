@@ -1,0 +1,21 @@
+---
+
+- name: Remove packages
+  apt:
+    pkg:
+    - apache2
+    - software-properties-common
+    - certbot
+    - python3-certbot-apache
+    state: absent
+    purge: yes
+    update_cache: yes
+
+- name: Remove directories with config remnants
+  file:
+    path: "{{ item }}"
+    state: absent
+  with_items:
+    - "/etc/apache2"
+    - "/etc/letsencrypt"
+    - "/var/lib/letsencrypt"
