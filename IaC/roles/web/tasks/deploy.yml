@@ -12,19 +12,18 @@
 
 - name: Archive existing build
   archive:
-    path: /opt/git/ijtaba.me.uk/html
+    path: "/opt/git/ijtaba.me.uk/html/**"
     dest: /opt/www.tgz
     exclude_path:
       - "**/.git/**"
       - "**/.git*/**"
-
 
   connection: local
   run_once: true
 
 - name: Ensure target directory exists
   file: 
-    path: /var/www/
+    path: /var/www/html/
     state: directory
     owner: www-data
     group: www-data
@@ -34,7 +33,19 @@
 - name: Copy over and extract the new website archive
   unarchive:
     src: /opt/www.tgz
-    dest: /var/www/
+    dest: /var/www/html/
     mode: u=rwx,g=rwx,o=rx
     owner: www-data
     group: www-data
+
+- name: Copy over .htaccess explicitly, as hidden files are missed by ansible
+  copy:
+    src: /opt/git/ijtaba.me.uk/html/.htaccess
+    dest: /var/www/html/.htaccess
+
+- name: Fix permissions recursively and explicitly 
+  file:
+    path: /var/www/html
+    owner: www-data
+    group: www-data
+    recurse: yes
