@@ -1,9 +1,21 @@
-[web]
-ijtaba.me.uk
-bugznet.ijtaba.me.uk
-localhost
+[all:children]
+web
 
+[web:children]
+prod
+uat
+dev
+
+[prod]
+ijtaba.me.uk
+
+[uat]
+bugznet.ijtaba.me.uk
+
+[dev]
+localhost
 
 [all:vars]
 ansible_user=root
 ansible_python_interpreter=/usr/bin/python3
+email="ijtabahussain@live.com"
