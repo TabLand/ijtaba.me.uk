@@ -1,9 +1,13 @@
 ---
 - name: Install dependencies
   apt:
-    name: apache2
+    name: 
+      - apache2
+      - php
+      - libapache2-mod-php
     state: latest
     update_cache: yes
+
 
 - name: Disable existing sites
   command: a2dissite "{{ item }}"
