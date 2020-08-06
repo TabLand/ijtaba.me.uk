@@ -12,7 +12,7 @@ Redirect /contact /vcf
 Redirect /linkedin https://uk.linkedin.com/pub/ijtaba-hussain/35/774/875
 Redirect /github https://github.com/TabLand
 Redirect /email mailto:ijtabahussain@live.com
-Redirect /home/map https://goo.gl/maps/KbCs9hgxmN22
+Redirect /home/map https://goo.gl/maps/cAetYMUyNdJynZR37
 RedirectMatch 403 /\.git
 RedirectMatch 403 /*private*
 Order Deny,Allow
