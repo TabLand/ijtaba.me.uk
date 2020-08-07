@@ -4,7 +4,7 @@
         <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 		<title>Skype Ijtaba Hussain</title>
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="../style.css">
+		<link rel="stylesheet" type="text/css" href="/style.css">
 	</head>
 	<body>
         <a href="skype:ijtabahussain?call" style="color:#12A5F4;">
