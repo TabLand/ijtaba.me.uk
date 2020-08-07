@@ -8,11 +8,17 @@ body,input, a {
   body, input, a {
     font-size: 1.5vw;
   }
+  div.wedding_blurb{
+    width: 60%
+  }
 }
 
 @media screen and (max-width: 600px) {
   body, input, a {
     font-size: 2.75vw;
+  }
+  div.wedding_blurb{
+    width: 100%
   }
 }
 
@@ -86,24 +92,19 @@ div.wedding_blurb{
   margin: auto;
 }
 
-@media screen and (min-width: 601px) {
-  div.wedding_blurb{
-    width: 60%
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.wedding_blurb{
-    width: 100%
-  }
-}
-
 div.wedding_frame{
-  background-image: url("events/wedding/img/Cross_hatching_hi_res.jpeg");
   background-size: 100% 100%;
   margin: auto;
   max-width: 60%;
   max-height: 60%;
   padding-top: 60%;
   color: black
+}
+
+div.us {
+  background-image: url("events/wedding/img/Cross_hatching_hi_res.jpeg");
+}
+
+div.origami_heart {
+  background-image: url("events/wedding/img/Cupids_Arrow.jpeg"); 
 }
