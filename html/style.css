@@ -1,7 +1,19 @@
 
 body,input, a {
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: 12pt;
+  font-size: 2.75vw;
+}
+
+@media screen and (min-width: 601px) {
+  body, input, a {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body, input, a {
+    font-size: 2.75vw;
+  }
 }
 
 body.white a {
@@ -72,7 +84,18 @@ div.wedding_container{
 
 div.wedding_blurb{
   margin: auto;
-  width: 410pt; 
+}
+
+@media screen and (min-width: 601px) {
+  div.wedding_blurb{
+    width: 60%
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.wedding_blurb{
+    width: 100%
+  }
 }
 
 div.wedding_frame{
