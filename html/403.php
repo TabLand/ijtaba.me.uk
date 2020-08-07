@@ -8,7 +8,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="/style.css">
 	</head>
-	<body>
+	<body class="black">
 	    Nope<br/>
         Stahp<br/>
         Enuff

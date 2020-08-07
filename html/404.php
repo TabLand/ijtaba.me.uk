@@ -8,7 +8,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="/style.css">
 	</head>
-	<body>
+	<body class="black">
 		Hey there beautiful,<br/>
 		Is it <a href="https://ijtaba.me.uk">me</a> you're looking for?
 	</body>

@@ -1,20 +1,26 @@
 
 body,input, a {
   font-family: "Lucida Console", Monaco, monospace;
-  text-shadow: 2px 2px 4px #000000;
   font-size: 20px;
+}
+
+body.white a {
+  color: black;
+}
+
+body.black a {
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: white;
 }
 
-a:hover {
+body.white a:hover, body.black a:hover, a:hover {
   color: red;    
 }
 
-html,body {
+.noscroll {
   height: 100%;
   width: 100%;
   overflow: hidden;    
@@ -22,10 +28,12 @@ html,body {
 
 .black {
   background-color: black;
+  color: white;
 }
 
 .white {
   background-color: white; 
+  color: black;
 }
 
 body {
@@ -62,10 +70,17 @@ div.wedding_container{
   
 }
 
+div.wedding_blurb{
+  margin: auto;
+  max-width: 60%;  
+}
+
 div.wedding_frame{
   background-image: url("events/wedding/img/Cross_hatching_hi_res.jpeg");
   background-size: 100% 100%;
   margin: auto;
-  height: 600px;
-  width: 600px;
+  max-width: 60%;
+  max-height: 60%;
+  padding-top: 60%;
+  color: black
 }
