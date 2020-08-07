@@ -108,3 +108,7 @@ div.us {
 div.origami_heart {
   background-image: url("events/wedding/img/Cupids_Arrow.jpeg"); 
 }
+
+div.centered {
+  text-align: center;  
+}
