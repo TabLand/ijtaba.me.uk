@@ -23,15 +23,15 @@ body,input, a {
 }
 
 body.white a {
-  color: black;
+  color: gray;
 }
 
 body.black a {
-  color: white;
+  color: lightgray;
 }
 
 a {
-  text-decoration: none;
+  font-weight: bold;
 }
 
 body.white a:hover, body.black a:hover, a:hover {
@@ -102,7 +102,7 @@ div.wedding_frame{
 }
 
 div.us {
-  background-image: url("events/wedding/img/Cross_hatching_hi_res.jpeg");
+  background-image: url("events/wedding/img/photocopy_hires.jpeg");
 }
 
 div.origami_heart {
