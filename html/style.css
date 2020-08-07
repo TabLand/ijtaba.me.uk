@@ -31,6 +31,7 @@ body.black a {
 }
 
 a {
+  text-decoration: none;
   font-weight: bold;
 }
 
