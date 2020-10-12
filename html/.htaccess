@@ -13,7 +13,8 @@ Redirect /linkedin https://uk.linkedin.com/pub/ijtaba-hussain/35/774/875
 Redirect /github https://github.com/TabLand
 Redirect /email mailto:ijtabahussain@live.com
 Redirect /home/map https://goo.gl/maps/cAetYMUyNdJynZR37
-Redirect /wedding /events/wedding
+Redirect /wedding /events/
+Redirect /events/wedding /events/
 RedirectMatch 403 /\.git
 RedirectMatch 403 /*private*
 Order Deny,Allow
