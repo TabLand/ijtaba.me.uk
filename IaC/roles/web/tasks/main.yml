@@ -7,11 +7,6 @@
   include: webserver.yml
   tags: webserver
 
-- name: quick_deploy
-  include: quick_deploy.yml
-  tags: quick_deploy
-  when: should_quick_deploy is defined and should_quick_deploy
- 
 - name: deploy
   include: deploy.yml
   tags: deploy
