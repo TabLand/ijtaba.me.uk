@@ -102,14 +102,6 @@ div.wedding_frame{
   color: black
 }
 
-div.us {
-  background-image: url("events/wedding/img/photocopy_hires.jpeg");
-}
-
-div.origami_heart {
-  background-image: url("events/wedding/img/new_outline_2_hires_golden_ratio_centered.jpeg"); 
-}
-
 div.centered {
   text-align: center;  
 }
