@@ -3,14 +3,10 @@ web
 
 [web:children]
 prod
-uat
 dev
 
 [prod]
 ijtaba.me.uk
-
-[uat]
-bugznet.ijtaba.me.uk
 
 [dev]
 localhost
