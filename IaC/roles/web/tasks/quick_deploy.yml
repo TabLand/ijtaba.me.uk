@@ -1,0 +1,41 @@
+---
+
+- name: Rsync the new website
+  synchronize:
+    src: /opt/git/ijtaba.me.uk/html/
+    dest: /var/www/html/
+    mode: push
+    owner: no
+    group: no
+    links: yes
+
+- name: Copy over .htaccess explicitly, as hidden files are missed by ansible
+  copy:
+    src: /opt/git/ijtaba.me.uk/html/.htaccess
+    dest: /var/www/html/.htaccess
+
+- name: Fix permissions recursively and explicitly 
+  file:
+    path: /var/www/html
+    owner: www-data
+    group: www-data
+    recurse: yes
+
+- name: Discover all html and php files
+  find:
+    path: /var/www/html
+    file_type: file
+    use_regex: yes
+    recurse: yes
+    patterns:
+      - '.*\.html$'
+      - '.*\.php$'
+  register: all_webpages
+
+- name: Append style.css with a time sensitive version parameter, to force browsers to fetch an updated copy
+  replace:
+    path: "{{ item.path }}"
+    regexp: "style.css(\\?v=[0-9]+)?"
+    replace: "style.css?v={{ansible_facts.date_time.epoch}}"
+  with_items:
+    "{{ all_webpages.files }}"
